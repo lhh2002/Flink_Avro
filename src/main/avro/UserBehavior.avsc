@@ -1,0 +1,12 @@
+{
+    "namespace": "com.avro.bean",
+    "type": "record",
+    "name": "UserBehavior",
+    "fields": [
+        {"name": "userId", "type": "long"},
+        {"name": "itemId",  "type": "long"},
+        {"name": "categoryId", "type": "int"},
+        {"name": "behavior", "type": "string"},
+        {"name": "timestamp", "type": "long"}
+    ]
+}
